@@ -1,0 +1,30 @@
+{
+  "name": "myResume",
+  "version": "1.0.0",
+  "description": "myResume",
+  "main": "index.js",
+  "author": "Jesse Katsumata",
+  "license": "MIT",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "normalize.css": "^7.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "file-loader": "^1.1.6",
+    "postcss": "^6.0.14",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^11.0.0",
+    "postcss-loader": "^2.0.9",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0"
+  }
+}

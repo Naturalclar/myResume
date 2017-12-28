@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
+
+:root {
+  --font-large: 24px;
+  --font-small: 12px;
+  --font-size: 14px;
+  --width: 816px;
+  --height: 1056px;
+  @custom-media --large (min-width: 816px);
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: azure;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding-top: 32px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  @media (--large) {
+    margin: 32px 0px;
+  }
+  
+  
+}
+
+.letter {
+  position: relative;
+  background: white;
+  width: 100%;
+  height: 100%;
+  max-width: var(--width);
+  max-height: var(--height);
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+
+.name {
+  font-size: var(--font-large);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.address {
+  font-size: var(--font-small);
+  font-family: 'Open Sans', serif;
+}
+
+.contact {
+  font-size: var(--font-small);
+  font-family: 'Open Sans', serif;
+  font-weight: bold;
+}
+
+.body {
+  font-size: var(--font-size);
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  
+}
+
+.summary {
+  grid-area: summary;
+  
+  & p {
+    line-height: 28px;
+  }
+}
+
+
+.experience {
+  grid-area: experience;
+  
+  & h5 {
+    color: silver;
+    margin-bottom: 0;
+  }
+  
+  & strong {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  & em {
+    font-weight: lighter;
+  }
+
+  & li {
+    line-height: 28px;
+  }
+}
+
+
+.skills {
+  grid-area: skills;
+  
+  & ul {
+    padding: 0;
+  }
+}
+
+.skills-list {
+  margin: 1rem 0;
+}
+
+.skills-line {
+  stroke-linecap: round;
+  stroke: lightgray;
+  stroke-width: 16;
+}
+
+.skills-progress {
+  stroke-linecap: round;
+  stroke: tomato;
+  stroke-width: 16;
+}
+
+.education {
+  grid-area: education;
+  
+  & h5 {
+    color: silver;
+    margin-bottom: 0;
+  }
+  
+  & strong {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  & em {
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  & p {
+    margin: 0;
+  }
+}
+
+.section-header {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: orangered;
+}
+
+.icon {
+  height: 32px;
+  width: 32px;
+  margin-right: 8px;
+  background: tomato;
+  color: white;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
