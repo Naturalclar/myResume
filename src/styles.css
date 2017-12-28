@@ -6,8 +6,8 @@
   --font-size: 14px;
   --width: 816px;
   --height: 1056px;
+  --primary-color: #4a68ad;
   @custom-media --large (min-width: 816px);
-  
 }
 
 * {
@@ -42,6 +42,14 @@ header {
   }
   
   
+}
+
+.border {
+  fill: var(--primary-color);
+}
+
+.column {
+  padding: 0 0.5rem;
 }
 
 .letter {
@@ -84,7 +92,7 @@ header {
   font-size: var(--font-size);
   padding: 16px;
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 70% 30%;
   
 }
 
@@ -140,7 +148,7 @@ header {
 
 .skills-progress {
   stroke-linecap: round;
-  stroke: tomato;
+  stroke: var(--primary-color);
   stroke-width: 16;
 }
 
@@ -173,14 +181,14 @@ header {
   align-items: center;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  color: orangered;
+  color: var(--primary-color);
 }
 
 .icon {
   height: 32px;
   width: 32px;
   margin-right: 8px;
-  background: tomato;
+  background: var(--primary-color);
   color: white;
   border-radius: 16px;
   display: flex;

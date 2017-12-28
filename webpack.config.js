@@ -1,30 +1,30 @@
 const webpack = require('webpack');
 
 module.exports = {
-  entry: __dirname + '/src/main.js',
+  entry: `${__dirname}/src/main.js`,
   output: {
-    path: __dirname + '/public/',
-    filename: 'bundle.js'
+    path: `${__dirname}/public/`,
+    filename: 'bundle.js',
   },
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['.js', '.jsx'],
   },
   module: {
     loaders: [
       {
-        test:/\.jsx?$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
         query: {
-          presets: ['env']
-        }
-      },    
+          presets: ['env'],
+        },
+      },
       {
-        test:/\.css$/,
+        test: /\.css$/,
         use: [
           'style-loader',
-          { loader: 'css-loader', options: {importLoaders: 1 }},
-          'postcss-loader'
+          { loader: 'css-loader', options: { importLoaders: 1 } },
+          'postcss-loader',
         ],
       },
       {
@@ -35,6 +35,6 @@ module.exports = {
         test: /\.(ttf|eot|svg)(\?[\s\S]+)?$/,
         use: 'file-loader?name=./[name].[ext]',
       },
-    ]
+    ],
   },
 };
