@@ -101,6 +101,7 @@ header {
   
   & p {
     line-height: 28px;
+    margin-left: 40px;
   }
 }
 
@@ -171,7 +172,7 @@ header {
   }
   
   & p {
-    margin: 0;
+    margin: 12px 0 0 0;
   }
 }
 

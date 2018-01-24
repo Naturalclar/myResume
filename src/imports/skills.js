@@ -1,0 +1,37 @@
+const skills = {
+  'front-end-developer': [
+    ['HTML5', 90],
+    ['CSS3', 90],
+    ['Javascript', 80],
+    ['jQuery', 80],
+    ['React', 70],
+    ['Redux', 60],
+    ['Riot.js', 50],
+    ['Flow.js', 30],
+    ['Node.js', 70],
+    ['Express.js', 70],
+    ['Webpack', 80],
+    ['Gulp', 60],
+    ['Git', 90],
+    ['Python', 70],
+    ['Ruby', 40],
+    ['Rails 5', 40],
+  ],
+  'data-analyst': [
+    ['MySQL', 80],
+    ['MongoDB', 50],
+    ['Python', 70],
+    ['Git', 90],
+    ['Japanese', 90],
+    ['Translation', 80],
+    ['HTML5', 90],
+    ['CSS3', 90],
+    ['Javascript', 80],
+    ['React.js', 70],
+    ['Node.js', 70],
+    ['Ruby', 40],
+    ['Rails 5', 40],
+  ],
+};
+
+export default skills;

@@ -10,9 +10,10 @@ const Experience = () => (
       <h5>April 2016 - Present</h5>
       <strong>Systena America Inc. San Mateo, CA <em>- Jr. Developer</em></strong>
       <ul>
+        <li>Worked as a Japanese-English Translator for technical documents to be read by Japanese team member.</li>
+        <li>Worked as a Japanese-English Interpreter to help Japanese team member communicate with American customers.</li>
         <li>Using React.js, I have created various reusable components for web applications for IoT web applications to display at Expos.</li>
-        <li>Using Express.js, I have created various REST APIs and routing for web applications hosted on AWS for internal use.</li>
-        <li>Using Riot.js and Bootstrap, designed and hosted our company website on AWS to generate more customer traction.</li>
+        <li>Using Node.js and MySQL, I have created a back-end system that takes various data from sensors and display them as a graph on dashboards.</li>
       </ul>
     </article>
     <article>

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Skill = ({name,percent}) => {
+const Skill = ({ name, percent }) => {
   const max = 220;
   const min = 100;
   const level = (min + ((max - min) * (percent / 100))).toFixed();
@@ -12,11 +12,11 @@ const Skill = ({name,percent}) => {
       <line x1="100px" x2={`${level}px`} y1="50%" y2="50%" className="skills-progress" />
     </svg>
   );
-}
+};
 
 Skill.propTypes = {
   name: PropTypes.string.isRequired,
   percent: PropTypes.number.isRequired,
-}
+};
 
 export default Skill;

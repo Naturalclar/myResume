@@ -1,28 +1,29 @@
 import React from 'react';
+import Header from './_Header';
 import Summary from './_Summary';
 import Experience from './_Experience';
 import Frame from './_Frame';
 import Education from './_Education';
 import SkillList from './_SkillList';
+import summary from '../imports/summary';
+import skills from '../imports/skills';
+
+const category = 'data-analyst';
 
 const App = () => (
   <div className="main">
     <div className="letter">
       <Frame />
       <div className="container">
-        <header>
-          <div className="name">Jesse Katsumata</div>
-          <div className="address">4613 Korbel St. Union City, CA 94587</div>
-          <div className="contact">Phone: (510) 552-6792 - Email: jesse.katsumata@gmail.com</div>
-        </header>
+        <Header />
         <div className="body">
           <div className="column">
-            <Summary />
+            <Summary content={summary[category]} />
             <Experience />
-            <Education />
           </div>
           <div className="column">
-            <SkillList />
+            <SkillList skills={skills[category]} />
+            <Education />
           </div>
         </div>
       </div>
