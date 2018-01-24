@@ -1,4 +1,5 @@
 import React from 'react';
+import Skill from './_Skill';
 
 const SkillList = () => (
   <div className="skills">
@@ -7,86 +8,22 @@ const SkillList = () => (
       Skills
     </div>
     <ul>
-      <svg width="300" height="32" xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <text x="10" y="50%" alignmentBaseline="middle">HTML5</text>
-        <line x1="100px" x2="220px" y1="50%" y2="50%" className="skills-line" />
-        <line x1="100px" x2="210px" y1="50%" y2="50%" className="skills-progress" />
-      </svg>
-      <svg width="300" height="32" xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <text x="10" y="50%" alignmentBaseline="middle">CSS3</text>
-        <line x1="100px" x2="220px" y1="50%" y2="50%" className="skills-line" />
-        <line x1="100px" x2="210px" y1="50%" y2="50%" className="skills-progress" />
-      </svg>
-      <svg width="300" height="32" xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <text x="10" y="50%" alignmentBaseline="middle">Javascript</text>
-        <line x1="100px" x2="220px" y1="50%" y2="50%" className="skills-line" />
-        <line x1="100px" x2="200px" y1="50%" y2="50%" className="skills-progress" />
-      </svg>
-      <svg width="300" height="32" xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <text x="10" y="50%" alignmentBaseline="middle">jQuery</text>
-        <line x1="100px" x2="220px" y1="50%" y2="50%" className="skills-line" />
-        <line x1="100px" x2="150px" y1="50%" y2="50%" className="skills-progress" />
-      </svg>
-      <svg width="300" height="32" xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <text x="10" y="50%" alignmentBaseline="middle">Riot.js</text>
-        <line x1="100px" x2="220px" y1="50%" y2="50%" className="skills-line" />
-        <line x1="100px" x2="130px" y1="50%" y2="50%" className="skills-progress" />
-      </svg>
-      <svg width="300" height="32" xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <text x="10" y="50%" alignmentBaseline="middle">React</text>
-        <line x1="100px" x2="220px" y1="50%" y2="50%" className="skills-line" />
-        <line x1="100px" x2="170px" y1="50%" y2="50%" className="skills-progress" />
-      </svg>
-      <svg width="300" height="32" xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <text x="10" y="50%" alignmentBaseline="middle">Redux</text>
-        <line x1="100px" x2="220px" y1="50%" y2="50%" className="skills-line" />
-        <line x1="100px" x2="130px" y1="50%" y2="50%" className="skills-progress" />
-      </svg>
-      <svg width="300" height="32" xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <text x="10" y="50%" alignmentBaseline="middle">Flow</text>
-        <line x1="100px" x2="220px" y1="50%" y2="50%" className="skills-line" />
-        <line x1="100px" x2="130px" y1="50%" y2="50%" className="skills-progress" />
-      </svg>
-      <svg width="300" height="32" xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <text x="10" y="50%" alignmentBaseline="middle">Node.js</text>
-        <line x1="100px" x2="220px" y1="50%" y2="50%" className="skills-line" />
-        <line x1="100px" x2="170px" y1="50%" y2="50%" className="skills-progress" />
-      </svg>
-      <svg width="300" height="32" xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <text x="10" y="50%" alignmentBaseline="middle">Express.js</text>
-        <line x1="100px" x2="220px" y1="50%" y2="50%" className="skills-line" />
-        <line x1="100px" x2="150px" y1="50%" y2="50%" className="skills-progress" />
-      </svg>
-      <svg width="300" height="32" xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <text x="10" y="50%" alignmentBaseline="middle">Webpack</text>
-        <line x1="100px" x2="220px" y1="50%" y2="50%" className="skills-line" />
-        <line x1="100px" x2="170px" y1="50%" y2="50%" className="skills-progress" />
-      </svg>
-      <svg width="300" height="32" xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <text x="10" y="50%" alignmentBaseline="middle">Gulp</text>
-        <line x1="100px" x2="220px" y1="50%" y2="50%" className="skills-line" />
-        <line x1="100px" x2="170px" y1="50%" y2="50%" className="skills-progress" />
-      </svg>
-      <svg width="300" height="32" xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <text x="10" y="50%" alignmentBaseline="middle">Git</text>
-        <line x1="100px" x2="220px" y1="50%" y2="50%" className="skills-line" />
-        <line x1="100px" x2="200px" y1="50%" y2="50%" className="skills-progress" />
-      </svg>
-      <svg width="300" height="32" xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <text x="10" y="50%" alignmentBaseline="middle">Python</text>
-        <line x1="100px" x2="220px" y1="50%" y2="50%" className="skills-line" />
-        <line x1="100px" x2="150px" y1="50%" y2="50%" className="skills-progress" />
-      </svg>
-      <svg width="300" height="32" xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <text x="10" y="50%" alignmentBaseline="middle">Ruby</text>
-        <line x1="100px" x2="220px" y1="50%" y2="50%" className="skills-line" />
-        <line x1="100px" x2="130px" y1="50%" y2="50%" className="skills-progress" />
-      </svg>
-      <svg width="300" height="32" xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <text x="10" y="50%" alignmentBaseline="middle">Rails 5</text>
-        <line x1="100px" x2="220px" y1="50%" y2="50%" className="skills-line" />
-        <line x1="100px" x2="130px" y1="50%" y2="50%" className="skills-progress" />
-      </svg>
+      <Skill name="HTML5" percent={90} />
+      <Skill name="CSS3" percent={90} />
+      <Skill name="Javascript" percent={80} />
+      <Skill name="jQuery" percent={80} />
+      <Skill name="React" percent={70} />
+      <Skill name="Redux" percent={60} />
+      <Skill name="Riot.js" percent={50} />
+      <Skill name="Flow.js" percent={30} />
+      <Skill name="Node.js" percent={70} />
+      <Skill name="Express.js" percent={70} />
+      <Skill name="Webpack" percent={80} />
+      <Skill name="Gulp" percent={60} />
+      <Skill name="Git" percent={90} />
+      <Skill name="Python" percent={70} />
+      <Skill name="Ruby" percent={40} />
+      <Skill name="Rails 5" percent={40} />
     </ul>
   </div>
 );
