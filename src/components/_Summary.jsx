@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { SectionHeader } from './Styles';
+import { SectionHeader, Icon } from './Styles';
 
 
 const Summary = ({ content }) => (
   <article className="summary">
     <SectionHeader>
-      <i className="icon fa fa-user" />
+      <Icon className="fa fa-user" />
       Summary
     </SectionHeader>
     <p>

@@ -106,11 +106,6 @@ header {
 }
 
 
-.experience {
-  grid-area: experience;
-}
-
-
 .skills {
   grid-area: skills;
   
@@ -133,30 +128,4 @@ header {
   stroke-linecap: round;
   stroke: var(--primary-color);
   stroke-width: 16;
-}
-
-.education {
-  grid-area: education;
-}
-
-.section-header {
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  color: var(--primary-color);
-}
-
-.icon {
-  height: 32px;
-  width: 32px;
-  margin-right: 8px;
-  background: var(--primary-color);
-  color: white;
-  border-radius: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }

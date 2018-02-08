@@ -1,18 +1,23 @@
 import React from 'react';
-import { Article, SectionHeader } from '../Styles';
+import styled from 'styled-components';
+import { Article, SectionHeader, Icon } from '../Styles';
 import { createHtml } from '../Utils';
 import experience1 from './sai-jr-developer.md';
 import experience2 from './sai-qa-analyst.md';
 
+const Container = styled.div`
+grid-area: experience;
+`;
+
 const Experience = () => (
-  <div className="experience">
+  <Container>
     <SectionHeader>
-      <i className="icon fa fa-suitcase" />
+      <Icon className="fa fa-suitcase" />
       Work Experience
     </SectionHeader>
     <Article dangerouslySetInnerHTML={createHtml(experience1)} />
     <Article dangerouslySetInnerHTML={createHtml(experience2)} />
-  </div>
+  </Container>
 );
 
 export default Experience;

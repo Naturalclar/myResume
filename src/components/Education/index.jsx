@@ -1,16 +1,21 @@
 import React from 'react';
-import { Article, SectionHeader } from '../Styles';
+import styled from 'styled-components';
+import { Article, SectionHeader, Icon } from '../Styles';
 import { createHtml } from '../Utils';
 import education from './education.md';
 
+const Container = styled.div`
+grid-area: education;
+`;
+
 const Education = () => (
-  <div className="education">
+  <Container>
     <SectionHeader>
-      <i className="icon fa fa-graduation-cap" />
+      <Icon className="fa fa-graduation-cap" />
       Education
     </SectionHeader>
     <Article dangerouslySetInnerHTML={createHtml(education)} />
-  </div>
+  </Container>
 );
 
 export default Education;

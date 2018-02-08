@@ -1,5 +1,6 @@
-import React from 'react';
 import styled from 'styled-components';
+
+const primaryColor = '#4a68ad';
 
 export const SectionHeader = styled.div`
   font-size: 16px;
@@ -7,14 +8,14 @@ export const SectionHeader = styled.div`
   align-items: center;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  color: var(--primary-color);
+  color: ${primaryColor};
 `;
 
-export const Icon = styled.div`
+export const Icon = styled.i`
   height: 32px;
   width: 32px;
   margin-right: 8px;
-  background: var(--primary-color);
+  background: ${primaryColor};
   color: white;
   border-radius: 16px;
   display: flex;
