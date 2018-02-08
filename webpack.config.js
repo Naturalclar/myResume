@@ -35,6 +35,13 @@ module.exports = {
         test: /\.(ttf|eot|svg)(\?[\s\S]+)?$/,
         use: 'file-loader?name=./[name].[ext]',
       },
+      {
+        test: /\.md$/,
+        use: [
+          'html-loader',
+          'markdown-loader',
+        ],
+      },
     ],
   },
 };

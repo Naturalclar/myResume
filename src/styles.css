@@ -156,24 +156,6 @@ header {
 .education {
   grid-area: education;
   
-  & h5 {
-    color: silver;
-    margin-bottom: 0;
-  }
-  
-  & strong {
-    font-weight: bold;
-    margin: 0;
-  }
-  
-  & em {
-    font-weight: normal;
-    font-style: italic;
-  }
-  
-  & p {
-    margin: 12px 0 0 0;
-  }
 }
 
 .section-header {

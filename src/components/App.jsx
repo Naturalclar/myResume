@@ -3,7 +3,7 @@ import Header from './_Header';
 import Summary from './_Summary';
 import Experience from './_Experience';
 import Frame from './_Frame';
-import Education from './_Education';
+import Education from './Education';
 import SkillList from './_SkillList';
 import summary from '../imports/summary';
 import skills from '../imports/skills';
