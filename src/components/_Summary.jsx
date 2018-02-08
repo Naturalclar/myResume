@@ -1,12 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
+import { SectionHeader } from './Styles';
 
-const Summary = ({content}) => (
+
+const Summary = ({ content }) => (
   <article className="summary">
-    <div className="section-header">
+    <SectionHeader>
       <i className="icon fa fa-user" />
       Summary
-    </div>
+    </SectionHeader>
     <p>
       {content}
     </p>
@@ -15,6 +18,6 @@ const Summary = ({content}) => (
 
 Summary.propTypes = {
   content: PropTypes.string.isRequired,
-}
+};
 
 export default Summary;

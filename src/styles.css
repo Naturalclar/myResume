@@ -108,24 +108,6 @@ header {
 
 .experience {
   grid-area: experience;
-  
-  & h5 {
-    color: silver;
-    margin-bottom: 0;
-  }
-  
-  & strong {
-    font-weight: bold;
-    margin: 0;
-  }
-  
-  & em {
-    font-weight: lighter;
-  }
-
-  & li {
-    line-height: 28px;
-  }
 }
 
 
@@ -155,7 +137,6 @@ header {
 
 .education {
   grid-area: education;
-  
 }
 
 .section-header {
