@@ -9,7 +9,6 @@
   @custom-media --large (min-width: 816px);
 }
 
-
 header {
   padding-top: 32px;
   height: 200px;
@@ -31,9 +30,6 @@ header {
   }
 }
 
-.border {
-  fill: var(--primary-color);
-}
 
 .column {
   padding: 0 0.5rem;
@@ -91,7 +87,6 @@ header {
     margin-left: 40px;
   }
 }
-
 
 .skills {
   grid-area: skills;
