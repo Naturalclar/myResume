@@ -4,11 +4,11 @@ import Summary from './_Summary';
 import Experience from './Experience';
 import Frame from './_Frame';
 import Education from './Education';
-import SkillList from './_SkillList';
+import SkillList from './Skill';
 import summary from '../imports/summary';
 import skills from '../imports/skills';
 
-const category = 'data-analyst';
+const category = 'front-end-developer';
 
 const App = () => (
   <div className="main">

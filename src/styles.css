@@ -57,27 +57,3 @@
     margin-left: 40px;
   }
 }
-
-.skills {
-  grid-area: skills;
-  
-  & ul {
-    padding: 0;
-  }
-}
-
-.skills-list {
-  margin: 1rem 0;
-}
-
-.skills-line {
-  stroke-linecap: round;
-  stroke: lightgray;
-  stroke-width: 16;
-}
-
-.skills-progress {
-  stroke-linecap: round;
-  stroke: var(--primary-color);
-  stroke-width: 16;
-}
