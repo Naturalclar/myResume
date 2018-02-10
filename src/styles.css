@@ -1,21 +1,10 @@
 
 :root {
-  --font-large: 24px;
-  --font-small: 12px;
   --font-size: 14px;
   --width: 816px;
   --height: 1056px;
   --primary-color: #4a68ad;
   @custom-media --large (min-width: 816px);
-}
-
-header {
-  padding-top: 32px;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 .main {
@@ -29,7 +18,6 @@ header {
     margin: 32px 0px;
   }
 }
-
 
 .column {
   padding: 0 0.5rem;
@@ -51,24 +39,6 @@ header {
   right: 0;
   bottom: 0;
   height: 100%;
-}
-
-
-.name {
-  font-size: var(--font-large);
-  font-weight: bold;
-  margin-bottom: 8px;
-}
-
-.address {
-  font-size: var(--font-small);
-  font-family: 'Open Sans', serif;
-}
-
-.contact {
-  font-size: var(--font-small);
-  font-family: 'Open Sans', serif;
-  font-weight: bold;
 }
 
 .body {

@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './_Header';
+import Header from './Header';
 import Summary from './_Summary';
 import Experience from './Experience';
 import Frame from './_Frame';
