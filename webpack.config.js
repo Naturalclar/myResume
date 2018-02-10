@@ -1,4 +1,5 @@
 const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: `${__dirname}/src/main.js`,
@@ -44,4 +45,10 @@ module.exports = {
       },
     ],
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'My Resume',
+      template: 'src/index.html',
+    }),
+  ],
 };
