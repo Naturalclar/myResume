@@ -1,8 +1,8 @@
 ##### April 2016 - Present
 
-__Systena America Inc. San Mateo, CA__ - *Jr.Developer*
+__Systena America Inc. San Mateo, CA__ - *Jr.Developer/Jr.Full-stack Engineer* 
       
-- Worked as a Japanese-English Translator for technical documents to be read by Japanese team member.
-- Worked as a Japanese-English Interpreter to help Japanese team member communicate with American customers.
 - Using React.js, I have created various reusable components for web applications for IoT web applications to display at Expos.
-- Using Node.js and MySQL, I have created a back-end system that takes various data from sensors and display them as a graph on dashboards.
+- Using Express.js, I have created various REST APIs and routing for web applications hosted on AWS for internal use.
+- Using Riot.js and Bootstrap, designed and hosted our company website
+on AWS to generate more customer traction.

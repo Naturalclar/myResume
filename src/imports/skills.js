@@ -1,19 +1,7 @@
 const skills = {
   'front-end-developer': [
     {
-      name: 'HTML5',
-      percent: 90,
-    },
-    {
-      name: 'CSS3',
-      percent: 90,
-    },
-    {
       name: 'Javascript',
-      percent: 80,
-    },
-    {
-      name: 'jQuery',
       percent: 80,
     },
     {
@@ -25,16 +13,36 @@ const skills = {
       percent: 60,
     },
     {
-      name: 'TypeScript',
-      percent: 60,
-    },
-    {
-      name: 'Babel',
+      name: 'Babel(ES6)',
       percent: 70,
     },
     {
       name: 'Node.js',
       percent: 70,
+    },
+    {
+      name: 'Ruby',
+      percent: 40,
+    },
+    {
+      name: 'Rails 5',
+      percent: 40,
+    },
+    {
+      name: 'HTML5',
+      percent: 90,
+    },
+    {
+      name: 'CSS3',
+      percent: 90,
+    },
+    {
+      name: 'jQuery',
+      percent: 80,
+    },
+    {
+      name: 'TypeScript',
+      percent: 60,
     },
     {
       name: 'Express.js',
@@ -55,14 +63,6 @@ const skills = {
     {
       name: 'Python',
       percent: 70,
-    },
-    {
-      name: 'Ruby',
-      percent: 40,
-    },
-    {
-      name: 'Rails 5',
-      percent: 40,
     },
   ],
   'data-analyst': [
