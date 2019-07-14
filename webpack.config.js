@@ -1,14 +1,13 @@
-const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: `${__dirname}/src/main.js`,
+  entry: `${__dirname}/src/main.tsx`,
   output: {
     path: `${__dirname}/public/`,
     filename: 'bundle.js',
   },
   resolve: {
-    extensions: ['.js', '.jsx'],
+    extensions: ['.js', '.jsx', '.ts', '.tsx'],
     alias: {
       react: 'preact-compat',
       'react-dom': 'preact-compat',
@@ -17,11 +16,19 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.tsx?$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader',
+        query: {
+          presets: ['@babel/preset-typescript', '@babel/preset-env', '@babel/preset-react'],
+        },
+      },
+      {
         test: /\.jsx?$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
         query: {
-          presets: ['env', 'react'],
+          presets: ['@babel/preset-env', '@babel/preset-react'],
         },
       },
       {
@@ -42,10 +49,7 @@ module.exports = {
       },
       {
         test: /\.md$/,
-        use: [
-          'html-loader',
-          'markdown-loader',
-        ],
+        use: ['html-loader', 'markdown-loader'],
       },
     ],
   },
