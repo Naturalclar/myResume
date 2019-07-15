@@ -20,6 +20,8 @@ module.exports = {
     ],
     '@typescript-eslint/explicit-function-return-type': 0,
     '@typescript-eslint/indent': ['error', 2],
+    '@typescript-eslint/prefer-interface': 0,
+    '@typescript-eslint/member-delimiter-style': 0,
   },
   settings: {
     'import/resolver': {
