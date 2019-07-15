@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
-import { createHtml } from '../Utils';
-import header from './header.md';
+import React from 'react'
+import styled from 'styled-components'
+import { createHtml } from '../Utils'
+import header from './header.md'
 
 const StyledHeader = styled.header`
   padding-top: 32px;
@@ -26,10 +26,10 @@ const StyledHeader = styled.header`
     color: black;
     text-decoration: none;
   }
-`;
+`
 
 const Header = () => (
   <StyledHeader dangerouslySetInnerHTML={createHtml(header)} />
-);
+)
 
-export default Header;
+export default Header

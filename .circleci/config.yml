@@ -28,7 +28,9 @@ commands:
           command: yarn
       - save_module_cache: { module_path: ./ }
       # - run: yarn type-check # Uncomment when implemented
-      # - run: yarn lint # Uncomment when implemented
+      - run:
+          name: Lint Files
+          command: yarn lint
       # - run: yarn test # Uncomment when implemented
       - run:
           name: Build
