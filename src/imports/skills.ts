@@ -1,16 +1,29 @@
-const skills = {
+type Skill = {
+  name: string
+  percent: number
+}
+
+const skills: Record<string, Skill[]> = {
   'front-end-developer': [
+    {
+      name: 'TypeScript',
+      percent: 80,
+    },
     {
       name: 'Javascript',
       percent: 80,
     },
     {
       name: 'React',
-      percent: 75,
+      percent: 90,
+    },
+    {
+      name: 'ReactNative',
+      percent: 90,
     },
     {
       name: 'Redux',
-      percent: 60,
+      percent: 80,
     },
     {
       name: 'Babel(ES6)',
@@ -21,12 +34,8 @@ const skills = {
       percent: 70,
     },
     {
-      name: 'Ruby',
-      percent: 40,
-    },
-    {
       name: 'Rails 5',
-      percent: 40,
+      percent: 50,
     },
     {
       name: 'HTML5',
@@ -39,10 +48,6 @@ const skills = {
     {
       name: 'jQuery',
       percent: 80,
-    },
-    {
-      name: 'TypeScript',
-      percent: 60,
     },
     {
       name: 'Express.js',
@@ -127,6 +132,6 @@ const skills = {
       percent: 40,
     },
   ],
-};
+}
 
-export default skills;
+export default skills
