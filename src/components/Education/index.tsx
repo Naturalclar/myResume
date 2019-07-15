@@ -1,12 +1,12 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Article, SectionHeader, Icon } from '../Styles';
-import { createHtml } from '../Utils';
-import education from './education.md';
+import React from 'react'
+import styled from 'styled-components'
+import { Article, SectionHeader, Icon } from '../Styles'
+import { createHtml } from '../Utils'
+import education from './education.md'
 
 const Container = styled.div`
-grid-area: education;
-`;
+  grid-area: education;
+`
 
 const Education = () => (
   <Container>
@@ -16,7 +16,6 @@ const Education = () => (
     </SectionHeader>
     <Article dangerouslySetInnerHTML={createHtml(education)} />
   </Container>
-);
+)
 
-export default Education;
-
+export default Education

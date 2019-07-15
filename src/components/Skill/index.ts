@@ -1,5 +1,4 @@
+import SkillList from './SkillList'
 
-import SkillList from './SkillList';
-
-export { default as Skill } from './Skill';
-export default SkillList;
+export { default as Skill } from './Skill'
+export default SkillList

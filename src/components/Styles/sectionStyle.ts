@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { PrimaryColor } from './variables';
+import styled from 'styled-components'
+import { PrimaryColor } from './variables'
 
 export const SectionHeader = styled.div`
   font-size: 16px;
@@ -8,7 +8,7 @@ export const SectionHeader = styled.div`
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   color: ${PrimaryColor};
-`;
+`
 
 export const Icon = styled.i`
   height: 32px;
@@ -21,7 +21,7 @@ export const Icon = styled.i`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-`;
+`
 
 export const Article = styled.article`
   & h5 {
@@ -35,11 +35,11 @@ export const Article = styled.article`
     font-weight: bold;
     margin: 0;
   }
-  & em { 
+  & em {
     font-weight: normal;
     font-style: italic;
   }
   & li {
     line-height: 28px;
   }
-`;
+`
