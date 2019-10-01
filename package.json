@@ -14,7 +14,7 @@
   "dependencies": {
     "font-awesome": "^4.7.0",
     "normalize.css": "^8.0.1",
-    "preact": "^8.2.7",
+    "preact": "^10.0.0",
     "preact-compat": "^3.18.0",
     "prop-types": "^15.6.0",
     "react": "^16.8.6",
