@@ -1,13 +1,13 @@
-import React from 'react';
-import Header from './Header';
-import Summary from './Summary';
-import Experience from './Experience';
-import Frame from './_Frame';
-import Education from './Education';
-import SkillList from './Skill';
-import skills from '../imports/skills';
+import React from 'react'
+import Header from './Header'
+import Summary from './Summary'
+import Experience from './Experience'
+import Frame from './_Frame'
+import Education from './Education'
+import SkillList from './Skill'
+import skills from '../imports/skills'
 
-const category = 'front-end-developer';
+const category = 'front-end-developer'
 
 const App = () => (
   <div className="main">
@@ -28,7 +28,6 @@ const App = () => (
       </div>
     </div>
   </div>
-);
+)
 
-
-export default App;
+export default App

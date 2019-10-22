@@ -1,8 +1,7 @@
-import React from 'react';
-import { SectionHeader, Icon } from '../Styles';
-import { createHtml } from '../Utils';
-import summary from './summary.md';
-
+import React from 'react'
+import { SectionHeader, Icon } from '../Styles'
+import { createHtml } from '../Utils'
+import summary from './summary.md'
 
 const Summary = () => (
   <article className="summary">
@@ -12,6 +11,6 @@ const Summary = () => (
     </SectionHeader>
     <div dangerouslySetInnerHTML={createHtml(summary)} />
   </article>
-);
+)
 
-export default Summary;
+export default Summary
