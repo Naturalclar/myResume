@@ -1,4 +1,4 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: `${__dirname}/src/main.tsx`,
@@ -8,10 +8,6 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx'],
-    alias: {
-      react: 'preact-compat',
-      'react-dom': 'preact-compat',
-    },
   },
   module: {
     rules: [
@@ -20,7 +16,11 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'babel-loader',
         query: {
-          presets: ['@babel/preset-typescript', '@babel/preset-env', '@babel/preset-react'],
+          presets: [
+            '@babel/preset-typescript',
+            '@babel/preset-env',
+            '@babel/preset-react',
+          ],
         },
       },
       {
@@ -59,4 +59,4 @@ module.exports = {
       template: 'src/index.html',
     }),
   ],
-};
+}

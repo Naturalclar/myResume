@@ -1,4 +1,4 @@
-##### April 2016 - Present
+##### April 2016 - July 2018
 
 __Systena America Inc. San Mateo, CA__ - *Jr.Developer/Jr.Full-stack Engineer* 
       

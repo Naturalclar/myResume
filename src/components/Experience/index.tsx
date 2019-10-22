@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import { Article, SectionHeader, Icon } from '../Styles'
 import { createHtml } from '../Utils'
-import experience1 from './sai-jr-developer.md'
-import experience2 from './sai-qa-analyst.md'
+import experience1 from './cureapp-full-stack-engineer.md'
+import experience2 from './sai-jr-developer.md'
 
 const Container = styled.div`
   grid-area: experience;
