@@ -57,7 +57,7 @@
     "style-loader": "^1.0.0",
     "typescript": "^3.5.3",
     "url-loader": "^3.0.0",
-    "webpack": "^4.35.3",
+    "webpack": "^4.42.0",
     "webpack-cli": "^3.3.5"
   },
   "repository": "https://github.com/Naturalclar/myResume.git"
