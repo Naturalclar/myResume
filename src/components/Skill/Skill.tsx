@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { SkillBar, SkillProgress } from '../Styles'
 
@@ -8,7 +7,11 @@ const Text = styled.text`
   font-family: 'Open Sans', sans-serif;
 `
 
-const Skill = ({ name, percent }) => {
+type Props = {
+  name: string
+  percent: number
+}
+const Skill: React.FC<Props> = ({ name, percent }) => {
   const max = 220
   const min = 100
   const level = (min + (max - min) * (percent / 100)).toFixed()
@@ -26,11 +29,6 @@ const Skill = ({ name, percent }) => {
       <SkillProgress x1="100px" x2={`${level}px`} y1="50%" y2="50%" />
     </svg>
   )
-}
-
-Skill.propTypes = {
-  name: PropTypes.string.isRequired,
-  percent: PropTypes.number.isRequired,
 }
 
 export default Skill

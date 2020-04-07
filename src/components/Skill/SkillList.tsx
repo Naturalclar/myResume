@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import Skill from './Skill'
 import { SectionHeader, Icon } from '../Styles'
@@ -11,24 +10,27 @@ const Container = styled.div`
   }
 `
 
-const SkillList = ({ skills }) => (
+type Skill = {
+  name: string
+  percent: number
+}
+
+type Props = {
+  skills: Skill[]
+}
+
+const SkillList: React.FC<Props> = ({ skills }) => (
   <Container>
     <SectionHeader>
       <Icon className="fa fa-code" />
       Skills
     </SectionHeader>
     <ul>
-      {skills.map(val => (
+      {skills.map((val) => (
         <Skill key={val.name} name={val.name} percent={val.percent} />
       ))}
     </ul>
   </Container>
 )
-
-SkillList.propTypes = {
-  skills: PropTypes.arrayOf(
-    PropTypes.shape({ name: PropTypes.string, percent: PropTypes.number })
-  ).isRequired,
-}
 
 export default SkillList
