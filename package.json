@@ -35,7 +35,7 @@
     "babel-loader": "^8.0.6",
     "browser-sync": "^2.26.7",
     "css-loader": "^3.0.0",
-    "eslint": "^6.0.1",
+    "eslint": "^7",
     "file-loader": "^5.0.1",
     "gulp": "^4.0.2",
     "gulp-watch": "^5.0.1",
