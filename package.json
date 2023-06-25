@@ -53,5 +53,8 @@
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5"
   },
-  "repository": "https://github.com/Naturalclar/myResume.git"
+  "repository": "https://github.com/Naturalclar/myResume.git",
+  "volta": {
+    "node": "16.19.0"
+  }
 }
