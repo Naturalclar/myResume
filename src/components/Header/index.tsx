@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { createHtml } from '../Utils'
-import header from './header.md'
+import HeaderMd from './header.md'
 
 const StyledHeader = styled.header`
   padding-top: 32px;
@@ -29,7 +28,9 @@ const StyledHeader = styled.header`
 `
 
 const Header = () => (
-  <StyledHeader dangerouslySetInnerHTML={createHtml(header)} />
+  <StyledHeader>
+    <HeaderMd />
+  </StyledHeader>
 )
 
 export default Header

@@ -12,16 +12,16 @@ MyResume, built with react.js
 
 ### Install Dependencies
 
-`yarn install`
+`pnpm install`
 
 ### Bundle Files
 
-`yarn build`
+`pnpm build`
 
 ### Display it on local browser
 
-`yarn start`
+`pnpm start`
 
 ### Edit files with Live Reloading
 
-`yarn watch`
+`pnpm watch`
