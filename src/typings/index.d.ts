@@ -1,4 +1,5 @@
 declare module '*.md' {
-  const value: string
-  export default value
+  import type { ComponentType } from 'react'
+  const MDXComponent: ComponentType<Record<string, unknown>>
+  export default MDXComponent
 }

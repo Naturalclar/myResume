@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from './Header'
 import Summary from './Summary'
 import Experience from './Experience'

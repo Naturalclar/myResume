@@ -1,4 +1,4 @@
-import React from 'react'
+import type { FC } from 'react'
 import styled from 'styled-components'
 import Skill from './Skill'
 import { SectionHeader, Icon } from '../Styles'
@@ -19,7 +19,7 @@ type Props = {
   skills: Skill[]
 }
 
-const SkillList: React.FC<Props> = ({ skills }) => (
+const SkillList: FC<Props> = ({ skills }) => (
   <Container>
     <SectionHeader>
       <Icon className="fa fa-code" />
