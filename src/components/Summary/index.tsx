@@ -1,10 +1,11 @@
-import { SectionHeader, Icon } from '../Styles'
+import { SectionHeader } from '../Styles'
+import { Icon } from '../Icon'
 import SummaryMd from './summary.md'
 
 const Summary = () => (
   <article className="summary">
     <SectionHeader>
-      <Icon className="fa fa-user" />
+      <Icon name="user" />
       Summary
     </SectionHeader>
     <div>

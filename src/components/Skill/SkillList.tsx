@@ -1,7 +1,8 @@
 import type { FC } from 'react'
 import styled from 'styled-components'
 import Skill from './Skill'
-import { SectionHeader, Icon } from '../Styles'
+import { SectionHeader } from '../Styles'
+import { Icon } from '../Icon'
 
 const Container = styled.div`
   grid-area: skills;
@@ -22,7 +23,7 @@ type Props = {
 const SkillList: FC<Props> = ({ skills }) => (
   <Container>
     <SectionHeader>
-      <Icon className="fa fa-code" />
+      <Icon name="code" />
       Skills
     </SectionHeader>
     <ul>

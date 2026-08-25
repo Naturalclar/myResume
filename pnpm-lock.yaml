@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      font-awesome:
-        specifier: ^4.7.0
-        version: 4.7.0
       normalize.css:
         specifier: ^8.0.1
         version: 8.0.1
@@ -1116,10 +1113,6 @@ packages:
 
   extend@3.0.2:
     resolution: {integrity: sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==}
-
-  font-awesome@4.7.0:
-    resolution: {integrity: sha512-U6kGnykA/6bFmg1M/oT9EkFeIYv7JlX3bozwQJWiiLz6L0w3F5vBVPxHlwyX/vtNq1ckcpRKOB9f2Qal/VtFpg==}
-    engines: {node: '>=0.10.3'}
 
   fraction.js@5.3.4:
     resolution: {integrity: sha512-1X1NTtiJphryn/uLQz3whtY6jK3fTqoE3ohKs0tT+Ujr1W59oopxmoEh7Lu5p6vBaPbgoM0bzveAW4Qi5RyWDQ==}
@@ -2676,8 +2669,6 @@ snapshots:
       '@types/estree': 1.0.9
 
   extend@3.0.2: {}
-
-  font-awesome@4.7.0: {}
 
   fraction.js@5.3.4: {}
 

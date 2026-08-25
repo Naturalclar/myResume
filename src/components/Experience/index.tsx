@@ -1,5 +1,6 @@
 import styled from 'styled-components'
-import { Article, SectionHeader, Icon } from '../Styles'
+import { Article, SectionHeader } from '../Styles'
+import { Icon } from '../Icon'
 import Experience1 from './cureapp-full-stack-engineer.md'
 import Experience2 from './sai-jr-developer.md'
 
@@ -10,7 +11,7 @@ const Container = styled.div`
 const Experience = () => (
   <Container>
     <SectionHeader>
-      <Icon className="fa fa-suitcase" />
+      <Icon name="suitcase" />
       Work Experience
     </SectionHeader>
     <Article>

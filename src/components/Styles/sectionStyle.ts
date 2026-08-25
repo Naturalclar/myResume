@@ -10,19 +10,6 @@ export const SectionHeader = styled.div`
   color: ${PrimaryColor};
 `
 
-export const Icon = styled.i`
-  height: 32px;
-  width: 32px;
-  margin-right: 8px;
-  background: ${PrimaryColor};
-  color: white;
-  border-radius: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-`
-
 export const Article = styled.article`
   & h5 {
     color: silver;
