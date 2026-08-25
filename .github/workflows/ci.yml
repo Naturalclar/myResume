@@ -9,16 +9,18 @@ jobs:
       - name: Setup Pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: "8"
+          version: '8'
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
-          cache: "pnpm"
+          node-version: '20'
+          cache: 'pnpm'
       - name: Install dependencies
         run: pnpm install
       - name: Run lint
         run: pnpm run lint
+      - name: Run format check
+        run: pnpm run format:check
       - name: Run typecheck
         run: pnpm run typecheck
       - name: Run build
