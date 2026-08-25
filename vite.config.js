@@ -9,6 +9,8 @@ const options = {
 }
 
 export default defineConfig({
+  // Set by the Pages deploy workflow so assets resolve under /myResume/
+  base: process.env.DEPLOY_BASE || '/',
   root: 'src',
   build: {
     outDir: '../dist',
