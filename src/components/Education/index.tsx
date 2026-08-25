@@ -1,5 +1,6 @@
 import styled from 'styled-components'
-import { Article, SectionHeader, Icon } from '../Styles'
+import { Article, SectionHeader } from '../Styles'
+import { Icon } from '../Icon'
 import EducationMd from './education.md'
 
 const Container = styled.div`
@@ -9,7 +10,7 @@ const Container = styled.div`
 const Education = () => (
   <Container>
     <SectionHeader>
-      <Icon className="fa fa-graduation-cap" />
+      <Icon name="graduation-cap" />
       Education
     </SectionHeader>
     <Article>

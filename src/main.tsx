@@ -1,7 +1,6 @@
 import { createRoot } from 'react-dom/client'
 import { createGlobalStyle } from 'styled-components'
 import 'normalize.css'
-import 'font-awesome/css/font-awesome.css'
 import './styles.css'
 import App from './components/App'
 
