@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components'
 import { Article, SectionHeader, Icon } from '../Styles'
 import Experience1 from './cureapp-full-stack-engineer.md'

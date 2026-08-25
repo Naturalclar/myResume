@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components'
 import { Article, SectionHeader, Icon } from '../Styles'
 import EducationMd from './education.md'

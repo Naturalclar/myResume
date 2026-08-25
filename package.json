@@ -10,7 +10,8 @@
     "dev": "vite",
     "build": "vite build",
     "start": "vite preview",
-    "lint": "oxlint src"
+    "lint": "oxlint src",
+    "typecheck": "tsc"
   },
   "dependencies": {
     "font-awesome": "^4.7.0",

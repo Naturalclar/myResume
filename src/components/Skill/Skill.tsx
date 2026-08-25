@@ -1,4 +1,4 @@
-import React from 'react'
+import type { FC } from 'react'
 import styled from 'styled-components'
 import { SkillBar, SkillProgress } from '../Styles'
 
@@ -11,7 +11,7 @@ type Props = {
   name: string
   percent: number
 }
-const Skill: React.FC<Props> = ({ name, percent }) => {
+const Skill: FC<Props> = ({ name, percent }) => {
   const max = 220
   const min = 100
   const level = (min + (max - min) * (percent / 100)).toFixed()

@@ -1,4 +1,3 @@
-import React from 'react'
 import { SectionHeader, Icon } from '../Styles'
 import SummaryMd from './summary.md'
 
