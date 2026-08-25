@@ -10,7 +10,7 @@
     "watch": "gulp watch",
     "build": "vite build",
     "start": "vite serve dist",
-    "lint": "eslint src --ext .ts,.tsx"
+    "lint": "oxlint src"
   },
   "dependencies": {
     "font-awesome": "^4.7.0",
@@ -23,17 +23,14 @@
   },
   "devDependencies": {
     "@mdx-js/rollup": "^2.3.0",
-    "@naturalclar/eslint-config": "^0.0.1",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/styled-components": "^5.0.1",
-    "@typescript-eslint/eslint-plugin": "^7.4.0",
-    "@typescript-eslint/parser": "^7.4.0",
     "@vitejs/plugin-react": "^4.0.1",
     "browser-sync": "^2.26.7",
-    "eslint": "^8",
     "gulp": "^4.0.2",
     "gulp-watch": "^5.0.1",
+    "oxlint": "^1.80.0",
     "postcss": "^8.4.31",
     "postcss-cssnext": "^3.1.1",
     "postcss-import": "^12.0.1",

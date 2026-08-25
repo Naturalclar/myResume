@@ -6,7 +6,7 @@ import 'font-awesome/css/font-awesome.css'
 import './styles.css'
 import App from './components/App'
 
-createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
   * {
     box-sizing: border-box;
@@ -20,4 +20,10 @@ createGlobalStyle`
   }
 `
 
-render(<App />, document.getElementById('app'))
+render(
+  <>
+    <GlobalStyle />
+    <App />
+  </>,
+  document.getElementById('app')
+)
